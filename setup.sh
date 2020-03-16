@@ -8,6 +8,7 @@ liblog4cpp5-dev libzmq3-dev python3-yaml python3-click python3-click-plugins \
 python3-zmq python3-scipy python3-pip
 
 pip3 install git+https://github.com/pyqtgraph/pyqtgraph@develop
+pip3 install numpy scipy
 
 echo 'export PYTHONPATH=/usr/local/lib/python3/dist-packages:usr/local/lib/python2.7/site-packages:$PYTHONPATH' >> ~/.bashrc 
 echo 'export LD_LIBRARY_PATH=/user/local/lib:$LD_LIBRARY_PATH' >> ~/.bashrc
