@@ -21,6 +21,6 @@ git checkout 3.8filter
 mkdir build
 cd build
 cmake -DENABLE_GR_UHD=OFF ..
-make -j4
+make -j $(nproc --all)
 sudo make install
 sudo ldconfig
