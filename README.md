@@ -5,7 +5,7 @@ To utilize this, run the following commands in your terminal:
 ```
 git clone https://github.com/wbarnha/grsetup/
 cd grsetup
-./setup
+./setup.sh
 ```
 This will ask you for permission to install the dependencies from your package manager. This installation will take thirty or so minutes.
 
