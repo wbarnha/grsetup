@@ -10,3 +10,12 @@ cd grsetup
 This will ask you for permission to install the dependencies from your package manager. This installation will take thirty or so minutes.
 
 Once the process is done, `reboot` your computer and GNU Radio 3.8 is set for you.
+
+NOTE: For systems that are sensitive to security issues, this contains:
+```
+echo 'export PYTHONPATH=/usr/local/lib/python3/dist-packages:usr/local/lib/python2.7/site-packages:$PYTHONPATH' >> ~/.bashrc 
+echo 'export LD_LIBRARY_PATH=/user/local/lib:$LD_LIBRARY_PATH' >> ~/.bashrc
+echo 'export PYTHONPATH=/usr/local/lib/python3/dist-packages:usr/local/lib/python2.7/site-packages:$PYTHONPATH' >> ~/.profile
+echo 'export LD_LIBRARY_PATH=/user/local/lib:$LD_LIBRARY_PATH' >> ~/.profile
+```
+This is NOT a recommended practice.
