@@ -1,5 +1,5 @@
 # grsetup
-A Bash script to simplify GNU Radio builds from source. Note that this uitilizes my fork of GNU Radio 3.8 for now since I really like the Filter Design Tool.
+A Bash script to simplify building GNU Radio 3.8 from source.
 
 To utilize this, run the following commands in your terminal:
 ```
