@@ -16,9 +16,9 @@ echo 'export PYTHONPATH=/usr/local/lib/python3/dist-packages:usr/local/lib/pytho
 echo 'export LD_LIBRARY_PATH=/user/local/lib:$LD_LIBRARY_PATH' >> ~/.profile
 
 cd ~/
-git clone --recursive https://github.com/wbarnha/gnuradio
+git clone --recursive https://github.com/gnuradio/gnuradio
 cd gnuradio
-git checkout 3.8filter
+git checkout maint-3.8
 mkdir build
 cd build
 cmake -DENABLE_GR_UHD=OFF ..
