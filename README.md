@@ -1,5 +1,5 @@
 # grsetup
-A Bash script to simplify building GNU Radio 3.8 from source.
+A Bash script to simplify building GNU Radio 3.8 from source. Please note that this skips the UHD setup process.
 
 To utilize this, run the following commands in your terminal:
 ```
