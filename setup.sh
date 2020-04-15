@@ -21,6 +21,8 @@ cd gnuradio
 git checkout maint-3.8
 mkdir build
 cd build
+git pull --recurse-submodules=on
+git submodule update --init
 cmake -DENABLE_GR_UHD=OFF ..
 make -j $(nproc --all)
 sudo make install
